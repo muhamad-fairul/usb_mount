@@ -1,3 +1,4 @@
+FROM ubuntu:18.04
 FROM alpine AS build
 
 RUN apt-get update && apt-get install -y openssh-server
